@@ -15,6 +15,20 @@ public class Main {
         bubbleSortS.imprimir();
         bubbleSortSDesc.imprimir();
 
+        LatLng latLng1 = new LatLng();
+        latLng1.setLatitude(10.0);
+        latLng1.setLongitude(20.0);
+
+        LatLng latLng2 = new LatLng();
+        latLng2.setLatitude(10.0);
+        latLng2.setLongitude(1.0);
+
+        BubbleSort bubbleSortO = new BubbleSort<LatLng>(new LatLng[]{latLng1, latLng2}, new CompareObject());
+        BubbleSort bubbleSortODesc = new BubbleSort<LatLng>(new LatLng[]{latLng1, latLng2}, new CompareObjectDesc());
+
+        bubbleSortO.imprimir();
+        bubbleSortODesc.imprimir();
+
         SelectionSort selectionSort = new SelectionSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumeric());
         SelectionSort selectionSortDesc = new SelectionSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumericDesc());
 
