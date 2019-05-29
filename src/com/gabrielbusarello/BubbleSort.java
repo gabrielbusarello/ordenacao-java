@@ -10,7 +10,8 @@ public class BubbleSort<T> {
         this.compare = compare;
     }
 
-    public T[] sort() {
+    public long sort() {
+        long start = System.currentTimeMillis();
         for (int i = this.objeto.length - 1; i >= 0; i--) {
             for (int j = 0; j < i; j++) {
                 if (compare.compareTo(this.objeto[j], this.objeto[j + 1]) > 0) {
@@ -20,17 +21,11 @@ public class BubbleSort<T> {
                 }
             }
         }
-
-        return this.objeto;
+        return System.currentTimeMillis() - start;
     }
 
-    public void imprimir() {
-        System.out.print("Bubble Sort: [ ");
-        for (int i = 0; i < sort().length; i++) {
-            System.out.print(i > 0 ? ", " : "");
-            System.out.print(sort()[i]);
-        }
-        System.out.println(" ]");
+    public long imprimir() {
+        return sort();
     }
 
 }

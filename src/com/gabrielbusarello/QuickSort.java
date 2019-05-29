@@ -35,14 +35,16 @@ public class QuickSort<T> {
         return i + 1;
     }
 
-    public void imprimir() {
-        System.out.print("Quick Sort: [ ");
+    public void imprimir(boolean imprimir) {
         sort(0, this.objeto.length - 1);
-        for (int i = 0; i < this.objeto.length; i++) {
-            System.out.print(i > 0 ? ", " : "");
-            System.out.print(this.objeto[i]);
+        if (imprimir) {
+            System.out.print("Quick Sort: [ ");
+            for (int i = 0; i < this.objeto.length; i++) {
+                System.out.print(i > 0 ? ", " : "");
+                System.out.print(this.objeto[i]);
+            }
+            System.out.println(" ]");
         }
-        System.out.println(" ]");
     }
 
 }
