@@ -12,87 +12,110 @@ public class Main {
         ReadArchives readArchives = new ReadArchives();
         Double[] doubles = readArchives.getFileNumbers("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/numeros_100000.txt", 100000);
         Double[] doubles1 = readArchives.getFileNumbers("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/numeros_1000000.txt", 1000000);
+        String[] strings = readArchives.getFileStrings("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/palavras_100000.txt", 100000);
+        String[] strings1 = readArchives.getFileStrings("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/palavras_1000000.txt", 1000000);
+        LatLng[] latLngs = readArchives.getFileObject("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/objetos_100000.txt", 100000);
+        LatLng[] latLngs1 = readArchives.getFileObject("C:/Users/Gabriel/IdeaProjects/Ordenacao/src/arquivos/objetos_1000000.txt", 1000000);
 
-        BubbleSort bubbleSort = new BubbleSort<Double>(doubles, new CompareNumeric());
-        BubbleSort bubbleSortDesc = new BubbleSort<Double>(doubles, new CompareNumericDesc());
+        // BubbleSort bubbleSort = new BubbleSort<Double>(doubles1, new CompareNumeric());
+        // BubbleSort bubbleSortDesc = new BubbleSort<Double>(doubles1, new CompareNumericDesc());
+        // BubbleSort bubbleSortS = new BubbleSort<String>(strings1, new CompareString());
+        // BubbleSort bubbleSortSDesc = new BubbleSort<String>(strings1, new CompareStringDesc());
+        // BubbleSort bubbleSortO = new BubbleSort<LatLng>(latLngs1, new CompareObject());
+        // BubbleSort bubbleSortODesc = new BubbleSort<LatLng>(latLngs1, new CompareObjectDesc());
 
-        long timeBubble = bubbleSort.imprimir();
-        long timeBubbleDesc = bubbleSortDesc.imprimir();
+        // long timeBubble = bubbleSort.imprimir();
+        // System.out.println("timeBubble " + timeBubble);
+        // long timeBubbleDesc = bubbleSortDesc.imprimir();
+        // System.out.println("timeBubbleDesc " + timeBubbleDesc);
+        // long timeBubbleS = bubbleSortS.imprimir();
+        // System.out.println("timeBubbleS " + timeBubbleS);
+        // long timeBubbleSDesc = bubbleSortSDesc.imprimir();
+        // System.out.println("timeBubbleSDesc " + timeBubbleSDesc);
+        // long timeBubbleO = bubbleSortO.imprimir();
+        // System.out.println("timeBubbleO " + timeBubbleO);
+        // long timeBubbleODesc = bubbleSortODesc.imprimir();
+        // System.out.println("timeBubbleODesc " + timeBubbleODesc);
 
-        /*BubbleSort bubbleSort1 = new BubbleSort<Double>(doubles1, new CompareNumeric());
-        BubbleSort bubbleSortDesc1 = new BubbleSort<Double>(doubles1, new CompareNumericDesc());
+        // SelectionSort selectionSort = new SelectionSort<Double>(doubles1, new CompareNumeric());
+        // SelectionSort selectionSortDesc = new SelectionSort<Double>(doubles1, new CompareNumericDesc());
+        // SelectionSort selectionSortS = new SelectionSort<String>(strings1, new CompareString());
+        // SelectionSort selectionSortSDesc = new SelectionSort<String>(strings1, new CompareStringDesc());
+        // SelectionSort selectionSortO = new SelectionSort<LatLng>(latLngs1, new CompareObject());
+        // SelectionSort selectionSortODesc = new SelectionSort<LatLng>(latLngs1, new CompareObjectDesc());
 
-        long timeBubble1 = bubbleSort1.imprimir();
-        long timeBubbleDesc1 = bubbleSortDesc1.imprimir();
+        // long timeSelection = selectionSort.imprimir();
+        // System.out.println("timeSelection " + timeSelection);
+        // long timeSelectionDesc = selectionSortDesc.imprimir();
+        // System.out.println("timeSelectionDesc " + timeSelectionDesc);
+        // long timeSelectionS = selectionSortS.imprimir();
+        // System.out.println("timeSelectionS " + timeSelectionS);
+        // long timeSelectionSDesc= selectionSortSDesc.imprimir();
+        // System.out.println("timeSelectionSDesc " + timeSelectionSDesc);
+        // long timeSelectionO = selectionSortO.imprimir();
+        // System.out.println("timeSelectionO " + timeSelectionO);
+        // long timeSelectionODesc= selectionSortODesc.imprimir();
+        // System.out.println("timeSelectionODesc " + timeSelectionODesc);
 
-        System.out.println("1: " + timeBubble);
-        System.out.println("2: " + timeBubbleDesc);
-        System.out.println("3: " + timeBubble1);
-        System.out.println("4: " + timeBubbleDesc1);
+        InsertionSort insertionSort = new InsertionSort<Double>(doubles1, new CompareNumeric());
+        // InsertionSort insertionSortDesc = new InsertionSort<Double>(doubles1, new CompareNumericDesc());
+        // InsertionSort insertionSortS = new InsertionSort<String>(strings1, new CompareString());
+        // InsertionSort insertionSortSDesc = new InsertionSort<String>(strings1, new CompareStringDesc());
+        // InsertionSort insertionSortO = new InsertionSort<LatLng>(latLngs1, new CompareObject());
+        // InsertionSort insertionSortODesc = new InsertionSort<LatLng>(latLngs1, new CompareObjectDesc());
 
-        BubbleSort bubbleSortS = new BubbleSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareString());
-        BubbleSort bubbleSortSDesc = new BubbleSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareStringDesc());
+        long timeInsertion = insertionSort.imprimir();
+        System.out.println("timeInsertion " + timeInsertion);
+        // long timeInsertionDesc = insertionSortDesc.imprimir();
+        // System.out.println("timeInsertionDesc " + timeInsertionDesc);
+        // long timeInsertionS = insertionSortS.imprimir();
+        // System.out.println("timeInsertionS " + timeInsertionS);
+        // long timeInsertionSDesc= insertionSortSDesc.imprimir();
+        // System.out.println("timeInsertionSDesc " + timeInsertionSDesc);
+        // long timeInsertionO = insertionSortO.imprimir();
+        // System.out.println("timeInsertionO " + timeInsertionO);
+        // long timeInsertionODesc= insertionSortODesc.imprimir();
+        // System.out.println("timeInsertionODesc " + timeInsertionODesc);
 
-        bubbleSortS.imprimir();
-        bubbleSortSDesc.imprimir();
+        // QuickSort quickSort = new QuickSort<Double>(doubles1, new CompareNumeric());
+        // QuickSort quickSortDesc = new QuickSort<Double>(doubles1, new CompareNumericDesc());
+        // QuickSort quickSortS = new QuickSort<String>(strings1, new CompareString());
+        // QuickSort quickSortSDesc = new QuickSort<String>(strings1, new CompareStringDesc());
+        // QuickSort quickSortO = new QuickSort<LatLng>(latLngs1, new CompareObject());
+        // QuickSort quickSortODesc = new QuickSort<LatLng>(latLngs1, new CompareObjectDesc());
 
-        LatLng latLng1 = new LatLng();
-        latLng1.setLatitude(10.0);
-        latLng1.setLongitude(20.0);
+        // long timeQuick = quickSort.imprimir();
+        // System.out.println("timeQuick " + timeQuick);
+        // long timeQuickDesc = quickSortDesc.imprimir();
+        // System.out.println("timeQuickDesc " + timeQuickDesc);
+        // long timeQuickS = quickSortS.imprimir();
+        // System.out.println("timeQuickS " + timeQuickS);
+        // long timeQuickSDesc= quickSortSDesc.imprimir();
+        // System.out.println("timeQuickSDesc " + timeQuickSDesc);
+        // long timeQuickO = quickSortO.imprimir();
+        // System.out.println("timeQuickO " + timeQuickO);
+        // long timeQuickODesc= quickSortODesc.imprimir();
+        // System.out.println("timeQuickODesc " + timeQuickODesc);
 
-        LatLng latLng2 = new LatLng();
-        latLng2.setLatitude(10.0);
-        latLng2.setLongitude(1.0);
+        // MergeSort mergeSort = new MergeSort<Double>(doubles1, new CompareNumeric());
+        // MergeSort mergeSortDesc = new MergeSort<Double>(doubles1, new CompareNumericDesc());
+        // MergeSort mergeSortS = new MergeSort<String>(strings1, new CompareString());
+        // MergeSort mergeSortSDesc = new MergeSort<String>(strings1, new CompareStringDesc());
+        // MergeSort mergeSortO = new MergeSort<LatLng>(latLngs1, new CompareObject());
+        // MergeSort mergeSortODesc = new MergeSort<LatLng>(latLngs1, new CompareObjectDesc());
 
-        BubbleSort bubbleSortO = new BubbleSort<LatLng>(new LatLng[]{latLng1, latLng2}, new CompareObject());
-        BubbleSort bubbleSortODesc = new BubbleSort<LatLng>(new LatLng[]{latLng1, latLng2}, new CompareObjectDesc());
-
-        bubbleSortO.imprimir();
-        bubbleSortODesc.imprimir();
-
-        SelectionSort selectionSort = new SelectionSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumeric());
-        SelectionSort selectionSortDesc = new SelectionSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumericDesc());
-
-        selectionSort.imprimir();
-        selectionSortDesc.imprimir();
-
-        SelectionSort selectionSortS = new SelectionSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareString());
-        SelectionSort selectionSortSDesc = new SelectionSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareStringDesc());
-
-        selectionSortS.imprimir();
-        selectionSortSDesc.imprimir();
-
-        InsertionSort insertionSort = new InsertionSort(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumeric());
-        InsertionSort insertionSortDesc = new InsertionSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumericDesc());
-
-        insertionSort.imprimir();
-        insertionSortDesc.imprimir();
-
-        InsertionSort insertionSortS = new InsertionSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareString());
-        InsertionSort insertionSortSDesc = new InsertionSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareStringDesc());
-
-        insertionSortS.imprimir();
-        insertionSortSDesc.imprimir();
-
-        QuickSort quickSort = new QuickSort<Double>(doubles, new CompareNumeric());
-        QuickSort quickSortDesc = new QuickSort<Double>(doubles, new CompareNumericDesc());
-
-        quickSort.imprimir(false);
-
-        quickSortDesc.imprimir(false);
-
-        QuickSort quickSortS = new QuickSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareString());
-        QuickSort quickSortSDesc = new QuickSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareStringDesc());
-
-        quickSortS.imprimir();
-        quickSortSDesc.imprimir();
-
-
-        MergeSort mergeSort = new MergeSort<Double>(doubles, new CompareNumeric());
-        MergeSort mergeSortDesc = new MergeSort<Double>(doubles, new CompareNumericDesc());
-
-        mergeSort.imprimir();
-        mergeSortDesc.imprimir();*/
+        // long timeMerge = mergeSort.imprimir();
+        // System.out.println("timeMerge " + timeMerge);
+        // long timeMergeDesc = mergeSortDesc.imprimir();
+        // System.out.println("timeMergeDesc " + timeMergeDesc);
+        // long timeMergeS = mergeSortS.imprimir();
+        // System.out.println("timeMergeS " + timeMergeS);
+        // long timeMergeSDesc= mergeSortSDesc.imprimir();
+        // System.out.println("timeMergeSDesc " + timeMergeSDesc);
+        // long timeMergeO = mergeSortO.imprimir();
+        // System.out.println("timeMergeO " + timeMergeO);
+        // long timeMergeODesc= mergeSortODesc.imprimir();
+        // System.out.println("timeMergeODesc " + timeMergeODesc);
 
     }
 

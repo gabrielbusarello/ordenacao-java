@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d76be4-323e-4316-b812-d808af4a85c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="238">
+              <caret line="72" column="66" lean-forward="true" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/ReadArchives.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="112" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="112" />
+            <state relative-caret-position="238">
+              <caret line="14" column="107" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="21">
+              <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -50,17 +54,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="38">
+              <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="46" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/LatLng.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="191">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -68,12 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="33" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -124,6 +133,7 @@
       <find>numeros</find>
       <find>\\</find>
       <find>system</find>
+      <find>SelectionSort</find>
     </findStrings>
     <replaceStrings>
       <replace>objeto</replace>
@@ -148,16 +158,16 @@
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareNumericDesc.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareString.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareStringDesc.java" />
-        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/Objeto.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareObject.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/LatLng.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareObjectDesc.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/ReadArchives.java" />
-        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" />
       </list>
     </option>
@@ -209,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559167393889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559249192199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -260,12 +270,12 @@
       <workItem from="1557181436799" duration="13897000" />
       <workItem from="1558044446027" duration="7687000" />
       <workItem from="1558646145080" duration="1720000" />
-      <workItem from="1558992019364" duration="21399000" />
+      <workItem from="1558992019364" duration="34362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44703000" />
+    <option name="totallyTimeSpent" value="57666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -367,20 +377,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Objeto.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Compare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -420,17 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/ReadArchives.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="112" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="112" />
+        <state relative-caret-position="238">
+          <caret line="14" column="107" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -439,19 +428,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="37" column="28" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="72" column="66" lean-forward="true" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="21">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
         </state>
       </provider>
     </entry>

@@ -24,13 +24,16 @@ public class InsertionSort<T> {
         return this.objeto;
     }
 
-    public void imprimir() {
-        System.out.print("Insertion Sort: [ ");
-        for (int i = 0; i < sort().length; i++) {
-            System.out.print(i > 0 ? ", " : "");
-            System.out.print(sort()[i]);
+    public long imprimir() {
+        long tempo = 0;
+        long start = System.currentTimeMillis();
+        this.sort();
+        for (int i = 0; i < this.objeto.length; i++) {
+            tempo = System.currentTimeMillis() - start;
+            System.out.println("Tempo " + i + " = " + tempo);
+            // System.out.print(this.objeto[i] + ", ");
         }
-        System.out.println(" ]");
+        return tempo;
     }
 
 }

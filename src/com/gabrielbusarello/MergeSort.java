@@ -56,14 +56,16 @@ public class MergeSort<T> {
         }
     }
 
-    public void imprimir() {
-        System.out.print("Merge Sort: [ ");
+    public long imprimir() {
+        long tempo = 0;
+        long start = System.currentTimeMillis();
         sort(0, this.objeto.length - 1);
         for (int i = 0; i < this.objeto.length; i++) {
-            System.out.print(i > 0 ? ", " : "");
-            System.out.print(this.objeto[i]);
+            tempo = System.currentTimeMillis() - start;
+            System.out.println("Tempo " + i + " = " + tempo);
+            // System.out.print(this.objeto[i] + ", ");
         }
-        System.out.println(" ]");
+        return tempo;
     }
 
 }
