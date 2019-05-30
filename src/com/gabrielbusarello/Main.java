@@ -19,7 +19,7 @@ public class Main {
         long timeBubble = bubbleSort.imprimir();
         long timeBubbleDesc = bubbleSortDesc.imprimir();
 
-        BubbleSort bubbleSort1 = new BubbleSort<Double>(doubles1, new CompareNumeric());
+        /*BubbleSort bubbleSort1 = new BubbleSort<Double>(doubles1, new CompareNumeric());
         BubbleSort bubbleSortDesc1 = new BubbleSort<Double>(doubles1, new CompareNumericDesc());
 
         long timeBubble1 = bubbleSort1.imprimir();
@@ -29,7 +29,7 @@ public class Main {
         System.out.println("2: " + timeBubbleDesc);
         System.out.println("3: " + timeBubble1);
         System.out.println("4: " + timeBubbleDesc1);
-/*
+
         BubbleSort bubbleSortS = new BubbleSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareString());
         BubbleSort bubbleSortSDesc = new BubbleSort<String>(new String[]{"C", "E", "F", "C", "I", "A"}, new CompareStringDesc());
 
@@ -88,8 +88,8 @@ public class Main {
         quickSortSDesc.imprimir();
 
 
-        MergeSort mergeSort = new MergeSort<Double>(new Double[]{10.0, 4.0, 8.0, 6.0, 1.0, 5.0}, new CompareNumeric());
-        MergeSort mergeSortDesc = new MergeSort<Double>(new Double[]{23.0, 79.0, 78.0, 23.0, 434.0, -2.0}, new CompareNumericDesc());
+        MergeSort mergeSort = new MergeSort<Double>(doubles, new CompareNumeric());
+        MergeSort mergeSortDesc = new MergeSort<Double>(doubles, new CompareNumericDesc());
 
         mergeSort.imprimir();
         mergeSortDesc.imprimir();*/

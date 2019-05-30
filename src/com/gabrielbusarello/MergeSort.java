@@ -21,28 +21,21 @@ public class MergeSort<T> {
 
     //p = start, q = mid, r = end
     public void merge(int p, int q, int r) {
-        int n1 = q - p;
+        int n1 = q - p + 1;
         int n2 = r - q;
-        System.out.println(n1 + " " + n2);
-        T[] L = (T[]) new Object[n1];
-        T[] R = (T[]) new Object[n2];
-        for (int i = 0; i < n1; i++) {
-            L[i] = this.objeto[p + i];
+        T[] L = (T[]) new Object[n1 + 1];
+        T[] R = (T[]) new Object[n2 + 1];
+        for (int i = 1; i <= n1; i++) {
+            L[i] = this.objeto[p + i - 1];
         }
-        for (int i = 0; i < n2; i++) {
+        for (int i = 1; i <= n2; i++) {
             R[i] = this.objeto[q + i];
         }
-        for (int i = 0; i < L.length; i++) {
-            System.out.println("L: " + L[i]);
-        }
-        for (int i = 0; i < R.length; i++) {
-            System.out.println("R: " + R[i]);
-        }
-        int i = 0;
-        int j = 0;
+
+        int i = 1;
+        int j = 1;
         for (int k = p; k <= r; k++) {
             if (i < L.length && j < R.length) {
-                System.out.println("Entrou 1!");
                 if (compare.compareTo(L[i], R[j]) <= 0) {
                     this.objeto[k] = L[i];
                     i++;
@@ -51,7 +44,6 @@ public class MergeSort<T> {
                     j++;
                 }
             } else {
-                System.out.println("Entrou 2!");
                 if (i < L.length) {
                     this.objeto[k] = L[i];
                     i++;

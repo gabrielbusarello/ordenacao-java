@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d76be4-323e-4316-b812-d808af4a85c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ordenacao/com/gabrielbusarello/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="202">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -162,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/CompareObjectDesc.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/ReadArchives.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" />
       </list>
     </option>
@@ -215,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559131602306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559167393889" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -266,12 +260,12 @@
       <workItem from="1557181436799" duration="13897000" />
       <workItem from="1558044446027" duration="7687000" />
       <workItem from="1558646145080" duration="1720000" />
-      <workItem from="1558992019364" duration="14128000" />
+      <workItem from="1558992019364" duration="21399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37432000" />
+    <option name="totallyTimeSpent" value="44703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -433,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/ReadArchives.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -463,11 +450,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="202">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
         </state>
       </provider>
     </entry>
