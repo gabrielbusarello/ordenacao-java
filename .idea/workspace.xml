@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d76be4-323e-4316-b812-d808af4a85c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gabrielbusarello/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
               <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -83,19 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gabrielbusarello/CompareNumeric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -169,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/gabrielbusarello/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -219,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559249192199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559341754890" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -270,12 +265,12 @@
       <workItem from="1557181436799" duration="13897000" />
       <workItem from="1558044446027" duration="7687000" />
       <workItem from="1558646145080" duration="1720000" />
-      <workItem from="1558992019364" duration="34362000" />
+      <workItem from="1558992019364" duration="35004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57666000" />
+    <option name="totallyTimeSpent" value="58308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -468,6 +463,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
